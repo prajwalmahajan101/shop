@@ -1,0 +1,12 @@
+<div class="card m-2 p-0" style="width: 18rem;">
+    <img src=<%=p['img']%> class="card-img-top" alt="Book">
+    <div class="card-body">
+        <h5 class="card-title"><%= p['title'] %></h5>
+        <p class="card-text"><%= p['dis']%></p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"> Price : $ <%=p['price']%> </li>
+        <li class="list-group-item">By : <%= p['by']%></li>
+        <li class="list-group-item">Currently in Stock!!!!</li>
+    </ul>
+</div>
